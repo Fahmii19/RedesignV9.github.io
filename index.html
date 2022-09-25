@@ -6,11 +6,277 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Redesign v9</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- <link rel="stylesheet" href="output.css" /> -->
   </head>
-  <body class="bg-white overflow-hidden">
+  <body class="bg-[#2f3135] overflow-hidden">
     <!-- header -->
+
     <div class="flex flex-col h-screen">
+      <div class="flex flex-row h-full">
+        <!-- konten kiri -->
+        <div class="w-[5rem] flex flex-col p-2 bg-[#202224]">
+          <div class="flex justify-center mb-4 mt-1">
+            <img
+              class="w-[3rem] h-[3rem] object-cover"
+              src="/assets/mentahan/dc.png"
+              alt=""
+            />
+          </div>
+
+          <div class="flex justify-center">
+            <div
+              class="w-[3rem] h-[3rem] bg-green-300 rounded-full grid place-content-center font-normal text-[16pt]"
+            >
+              FA
+            </div>
+          </div>
+          <div class="flex justify-center py-3">
+            <div
+              class="w-[3rem] h-[3rem] bg-blue-300 rounded-full grid place-content-center font-normal text-[16pt]"
+            >
+              DE
+            </div>
+          </div>
+          <div class="flex justify-center">
+            <div
+              class="w-[3rem] h-[3rem] bg-orange-300 rounded-full grid place-content-center font-normal text-[16pt]"
+            >
+              AS
+            </div>
+          </div>
+          <div class="flex justify-center py-3">
+            <div
+              class="w-[3rem] h-[3rem] bg-purple-300 rounded-full grid place-content-center font-normal text-[16pt]"
+            >
+              RI
+            </div>
+          </div>
+          <div class="flex justify-center">
+            <div
+              class="w-[3rem] h-[3rem] bg-slate-50 rounded-full flex justify-center items-center"
+            >
+              <img
+                class="w-[2rem] h-[2rem] object-cover"
+                src="/assets/mentahan/add.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <!-- konten kanan -->
+        <div class="w-full py-6 px-6">
+          <div class="flex flex-col">
+            <!-- cari pesan -->
+            <div
+              class="relative w-full border-b-2 border-slate-500 inline-flex"
+            >
+              <input
+                type="search"
+                id="default-search"
+                class="block p-2 w-full text-sm text-gray-900 bg-transparent rounded-lg outline-0"
+                placeholder="Direct Messagges"
+                required=""
+              />
+              <img
+                class="h-6 w-6 mr-1 mt-1"
+                src="/assets/mentahan/message-add.png"
+                alt=""
+              />
+            </div>
+            <!-- search -->
+            <div
+              class="relative w-full bg-gray-600 rounded-lg inline-flex mt-3"
+            >
+              <input
+                type="search"
+                id="default-search"
+                class="block p-2 w-full text-sm text-gray-900 bg-transparent rounded-lg outline-0"
+                placeholder="Find or start a conversation"
+                required=""
+              />
+              <img
+                class="h-6 w-6 mr-1 mt-[0.4rem]"
+                src="/assets/mentahan/search.png"
+                alt=""
+              />
+            </div>
+
+            <div class="flex flex-row mt-3">
+              <div class="mr-2">
+                <span class="relative inline-block">
+                  <img
+                    class="w-10 h-10 rounded-full object-cover"
+                    src="/assets/mentahan/person1.jpg"
+                    alt="notif"
+                  />
+
+                  <span
+                    class="w-2 h-2 absolute -bottom-[0.2rem] right-[0.2rem] inline-flex items-center justify-center px-[0.2rem] py-[0.1rem] text-[7pt] font-bold leading-none text-red-100 transform translate-x-1/2 -translate-y-1/2 bg-green-500 rounded-full"
+                  >
+                  </span>
+                </span>
+              </div>
+              <div class="mt-1 text-gray-300">Amirul</div>
+            </div>
+
+            <div class="flex flex-row mt-3">
+              <div class="mr-2">
+                <span class="relative inline-block">
+                  <img
+                    class="w-10 h-10 rounded-full object-cover"
+                    src="/assets/mentahan/person2.jpg"
+                    alt="notif"
+                  />
+
+                  <span
+                    class="w-2 h-2 absolute -bottom-[0.2rem] right-[0.2rem] inline-flex items-center justify-center px-[0.2rem] py-[0.1rem] text-[7pt] font-bold leading-none text-red-100 transform translate-x-1/2 -translate-y-1/2 bg-green-500 rounded-full"
+                  >
+                  </span>
+                </span>
+              </div>
+              <div class="mt-1 text-gray-300">Yasinta</div>
+            </div>
+
+            <div class="flex flex-row mt-3">
+              <div class="mr-2">
+                <span class="relative inline-block">
+                  <img
+                    class="w-10 h-10 rounded-full object-cover"
+                    src="/assets/mentahan/person3.jpg"
+                    alt="notif"
+                  />
+
+                  <span
+                    class="w-2 h-2 absolute -bottom-[0.2rem] right-[0.2rem] inline-flex items-center justify-center px-[0.2rem] py-[0.1rem] text-[7pt] font-bold leading-none text-red-100 transform translate-x-1/2 -translate-y-1/2 bg-green-500 rounded-full"
+                  >
+                  </span>
+                </span>
+              </div>
+              <div class="mt-1 text-gray-300">Santoso</div>
+            </div>
+
+            <div class="flex flex-row mt-3">
+              <div class="mr-2">
+                <span class="relative inline-block">
+                  <img
+                    class="w-10 h-10 rounded-full object-cover"
+                    src="/assets/mentahan/person1.jpg"
+                    alt="notif"
+                  />
+
+                  <span
+                    class="w-2 h-2 absolute -bottom-[0.2rem] right-[0.2rem] inline-flex items-center justify-center px-[0.2rem] py-[0.1rem] text-[7pt] font-bold leading-none text-red-100 transform translate-x-1/2 -translate-y-1/2 bg-green-500 rounded-full"
+                  >
+                  </span>
+                </span>
+              </div>
+              <div class="mt-1 text-gray-300">Ziko</div>
+            </div>
+
+            <div class="text-gray-400 py-1">Offline</div>
+
+            <div class="flex flex-row mt-2">
+              <div class="mr-2">
+                <span class="relative inline-block">
+                  <img
+                    class="w-10 h-10 rounded-full object-cover"
+                    src="/assets/mentahan/person2.jpg"
+                    alt="notif"
+                  />
+
+                  <span
+                    class="w-2 h-2 absolute -bottom-[0.2rem] right-[0.2rem] inline-flex items-center justify-center px-[0.2rem] py-[0.1rem] text-[7pt] font-bold leading-none text-red-100 transform translate-x-1/2 -translate-y-1/2 bg-green-500 rounded-full"
+                  >
+                  </span>
+                </span>
+              </div>
+              <div class="mt-1 text-gray-300">Tasya</div>
+            </div>
+
+            <div class="flex flex-row mt-3">
+              <div class="mr-2">
+                <span class="relative inline-block">
+                  <img
+                    class="w-10 h-10 rounded-full object-cover"
+                    src="/assets/mentahan/person3.jpg"
+                    alt="notif"
+                  />
+
+                  <span
+                    class="w-2 h-2 absolute -bottom-[0.2rem] right-[0.2rem] inline-flex items-center justify-center px-[0.2rem] py-[0.1rem] text-[7pt] font-bold leading-none text-red-100 transform translate-x-1/2 -translate-y-1/2 bg-green-500 rounded-full"
+                  >
+                  </span>
+                </span>
+              </div>
+              <div class="mt-1 text-gray-300">Cahyo</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- konten bawah -->
+      <div class="h-[4rem]">
+        <div
+          class="w-full h-[3.5rem] bg-[#191a1c] grid grid-cols-5 place-items-center px-1 bottom-0"
+        >
+          <div class="flex flex-col items-center">
+            <div>
+              <img class="w-6 h-6" src="/assets/mentahan/msg.png" alt="msg" />
+            </div>
+          </div>
+          <div class="flex flex-col items-center">
+            <div>
+              <img
+                class="w-7 h-6"
+                src="/assets/mentahan/people-hello.png"
+                alt="people hello"
+              />
+            </div>
+          </div>
+          <div class="flex flex-col items-center">
+            <div class="notifnya mt-1">
+              <span class="relative inline-block">
+                <img
+                  class="w-8 h-8"
+                  src="/assets/mentahan/notif.png"
+                  alt="notif"
+                />
+
+                <span
+                  class="absolute top-1 right-[0.5rem] inline-flex items-center justify-center px-[0.2rem] py-[0.1rem] text-[7pt] font-bold leading-none text-red-100 transform translate-x-1/2 -translate-y-1/2 bg-red-600 rounded-full"
+                  >1</span
+                >
+              </span>
+            </div>
+          </div>
+          <div class="flex flex-col items-center">
+            <div>
+              <img
+                class="w-7 h-7"
+                src="/assets/mentahan/setting.png"
+                alt="setting"
+              />
+            </div>
+          </div>
+          <div class="flex flex-col items-center">
+            <div class="notifnya mt-1">
+              <span class="relative inline-block">
+                <img
+                  class="w-8 h-8 rounded-full object-cover"
+                  src="/assets/mentahan/person1.jpg"
+                  alt="notif"
+                />
+
+                <span
+                  class="w-2 h-2 absolute -bottom-[0.2rem] right-[0.2rem] inline-flex items-center justify-center px-[0.2rem] py-[0.1rem] text-[7pt] font-bold leading-none text-red-100 transform translate-x-1/2 -translate-y-1/2 bg-green-500 rounded-full"
+                >
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="flex flex-row h-screen">
       <header class="px-2 pt-2 pb-2.5 bg-[#00880c]">
         <div class="flex flex-row">
           <div
@@ -54,235 +320,70 @@
           </div>
         </div>
       </header>
-      <!-- konten -->
-      <main class="p-4 flex-grow bg-slate-100">
-        <!-- konten1 -->
-        <div class="w-full h-24 flex flex-row bg-[#0081a0] rounded-2xl p-2">
-          <div
-            class="w-2 h-full flex flex-col items-stretch justify-around py-3 mr-2"
-          >
-            <div class="w-0.5 h-2 self-center bg-gray-400"></div>
-            <div class="w-0.5 h-2 self-center bg-gray-400"></div>
-            <div class="w-0.5 h-2 self-center bg-gray-300"></div>
-          </div>
-          <div class="w-40 h-full bg-slate-100 rounded-md py-1 px-2">
-            <div class="flex flex-row items-stretch">
-              <div class="self-center mr-0.5">
-                <img class="w-4 h-4" src="/assets/gopay.png" alt="" />
-              </div>
-              <div class="text-xs font-bold self-center -mt-1">gopay</div>
-            </div>
-            <div class="text-sm font-bold py-1">RP. 1.250.000</div>
-            <div class="text-sm font-bold text-[#018812]">
-              Klik & cek riwayat
-            </div>
-          </div>
-          <div class="w-14 h-full flex flex-col justify-center items-center">
-            <img class="w-8 h-8" src="/assets/bayar.png" alt="" />
-            <div class="text-white font-semibold text-xs mt-1">Bayar</div>
-          </div>
-          <div class="w-14 h-full flex flex-col justify-center items-center">
-            <img class="w-8 h-8" src="/assets/isisaldo.png" alt="" />
-            <div class="text-white font-semibold text-xs mt-1">Isi Saldo</div>
-          </div>
-          <div class="w-14 h-full flex flex-col justify-center items-center">
-            <img class="w-8 h-8" src="/assets/eksplor.png" alt="" />
-            <div class="text-white font-semibold text-xs mt-1">Eksplor</div>
-          </div>
-        </div>
-        <!-- konten2 -->
-        <div class="w-full h-36 mt-6 px-5">
-          <div class="flex justify-between h-20">
-            <div class="w-12 h-16 flex flex-col items-center justify-center">
-              <div class="w-[3rem] h-[2.8rem] bg-[#f0e8ff] rounded-lg">
-                <img
-                  class="w-12 h-12 mt-1 ml-[0.1rem]"
-                  src="/assets/goride.png"
-                  alt=""
-                />
-              </div>
-              <div class="text-xs font-normal mt-2">GoRide</div>
-            </div>
-            <div class="w-12 h-16 flex flex-col items-center justify-center">
-              <div class="w-[3rem] h-[2.8rem] bg-[#f0e8ff] rounded-lg">
-                <img
-                  class="w-12 h-12 mt-[0.6rem] ml-[0.2rem]"
-                  src="/assets/gocar.png"
-                  alt=""
-                />
-              </div>
-              <div class="text-xs font-normal mt-2">GoCar</div>
-            </div>
-            <div class="w-12 h-16 flex flex-col items-center justify-center">
-              <div class="w-[3rem] h-[2.8rem] bg-[#f0e8ff] rounded-lg">
-                <img
-                  class="w-12 h-12 mt-[0.6rem] ml-[0.5rem]"
-                  src="/assets/gofood.png"
-                  alt=""
-                />
-              </div>
-              <div class="text-xs font-normal mt-2">GoFood</div>
-            </div>
-            <div class="w-12 h-16 flex flex-col items-center justify-center">
-              <div class="w-[3rem] h-[2.8rem] bg-[#e1fad2] rounded-lg">
-                <img
-                  class="w-14 h-12 mt-[0.5rem] ml-[0.4rem]"
-                  src="/assets/gosend.png"
-                  alt=""
-                />
-              </div>
-              <div class="text-xs font-normal mt-2">GoSend</div>
-            </div>
-          </div>
-          <div class="flex justify-between h-20 mt-1">
-            <div class="w-12 h-16 flex flex-col items-center justify-center">
-              <div class="w-[3rem] h-[2.8rem] bg-[#ffe1df] rounded-lg">
-                <img
-                  class="w-14 h-[2.8] mt-[0.3rem] ml-[0.5rem]"
-                  src="/assets/gomart.png"
-                  alt=""
-                />
-              </div>
-              <div class="text-xs font-normal mt-2">GoMart</div>
-            </div>
-            <div class="w-12 h-16 flex flex-col items-center justify-center">
-              <div class="w-[3rem] h-[2.8rem] bg-[#f0e8ff] rounded-lg">
-                <img
-                  class="w-12 h-11 mt-1.5 ml-1"
-                  src="/assets/gopulsa.png"
-                  alt=""
-                />
-              </div>
-              <div class="text-xs font-normal mt-2">GoPulsa</div>
-            </div>
-            <div class="w-12 h-16 flex flex-col items-center justify-center">
-              <div class="w-[3rem] h-[2.8rem] bg-[#d3f4fb] rounded-lg">
-                <img
-                  class="w-12 h-11 mt-1 ml-1"
-                  src="/assets/gopaylater.png"
-                  alt=""
-                />
-              </div>
-              <div class="text-xs font-normal mt-2">GoPlaylater</div>
-            </div>
-            <div class="w-12 h-16 flex flex-col items-center justify-center">
-              <div class="w-10 h-10 bg-[#ededed] rounded-full">
-                <img class="w-9 h-19" src="/assets/semua.png" alt="" />
-              </div>
-              <div class="text-xs font-normal mt-2">GoRide</div>
-            </div>
-          </div>
-        </div>
 
-        <!-- konten2 -->
-        <div
-          class="w-full h-14 mt-6 bg-gradient-to-r from-[#f8eee5] to-[#f8eee5] flex flex-row rounded-[0.7rem] shadow-lg"
-        >
-          <div class="w-16 flex justify-center items-center h-full">
-            <img class="w-10 h-10" src="/assets/icon_konten.png" alt="" />
-          </div>
-          <div class="w-72 flex flex-col py-3">
-            <div class="text-sm font-semibold tracking-wide">
-              200 XP lagi ada Harta Karun
-            </div>
-            <div>
-              <div class="w-56 mt-0.5">
-                <div class="w-full h-1 bg-gray-300">
-                  <div class="w-10 h-1 bg-green-600"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="w-12 flex items-center">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="2.5"
-              stroke="currentColor"
-              class="w-6 h-6 text-gray-500"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M8.25 4.5l7.5 7.5-7.5 7.5"
-              />
-            </svg>
-          </div>
-        </div>
-
-        <!-- konten3 -->
-        <div class="flex -mr-5 flex-row overflow-y-hidden mt-5">
-          <div class="flex-shrink-0 mr-2">
-            <div
-              class="bg-white w-52 h-12 flex items-center p-1 px-2 rounded-lg shadow-xl"
-            >
-              <div class="text-sm font-semibold">5</div>
-              <div class="text-sm font-semibold px-2">Voucher akan hangus</div>
-              <div
-                class="w-7 h-7 bg-[#00aa13] flex items-center justify-center rounded-full"
-              >
-                <img class="w-7 h-7" src="/assets/kupon_promo.png" alt="" />
-              </div>
-            </div>
-          </div>
-          <div class="flex-shrink-0">
-            <div
-              class="bg-white w-52 h-12 flex items-center p-1 px-2 rounded-lg shadow-xl"
-            >
-              <div class="text-sm font-semibold"></div>
-              <div class="text-sm font-semibold px-2">Restoran Terdekat</div>
-              <div
-                class="w-7 h-7 bg-[#00aa13] flex items-center justify-center rounded-full"
-              >
-                <img class="w-7 h-7" src="/assets/kupon_promo.png" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- konten4 -->
-        <img src="" alt="" />
+      <main class="flex-grow bg-slate-100">
+        <div class="bg-red-500 w-full h-full">dasdsa</div>
       </main>
-      <!-- Footer -->
+
       <footer
-        class="w-full h-[4rem] bg-white grid grid-cols-4 place-items-center px-1"
+        class="w-full h-[3.5rem] bg-[#191a1c] grid grid-cols-5 place-items-center px-1 bottom-0"
       >
         <div class="flex flex-col items-center">
           <div>
-            <img class="w-7 h-7" src="/assets/home.png" alt="beranda" />
+            <img class="w-6 h-6" src="/assets/mentahan/msg.png" alt="msg" />
           </div>
-          <div class="text-sm tracking-wide font-medium">Beranda</div>
         </div>
         <div class="flex flex-col items-center">
           <div>
             <img
-              class="w-9 h-9"
-              src="/assets/kupon_promo_home.png"
-              alt="beranda"
+              class="w-7 h-6"
+              src="/assets/mentahan/people-hello.png"
+              alt="people hello"
             />
           </div>
-          <div class="text-sm tracking-wide font-medium text-gray-600 -mt-1">
-            Promo
-          </div>
         </div>
-        <div class="flex flex-col items-center mt-1">
-          <div>
-            <img class="w-8 h-8" src="/assets/pesanan.png" alt="beranda" />
-          </div>
-          <div class="text-sm tracking-wide font-medium text-gray-600 -mt-0.5">
-            Pesanan
+        <div class="flex flex-col items-center">
+          <div class="notifnya mt-1">
+            <span class="relative inline-block">
+              <img
+                class="w-8 h-8"
+                src="/assets/mentahan/notif.png"
+                alt="notif"
+              />
+
+              <span
+                class="absolute top-1 right-[0.5rem] inline-flex items-center justify-center px-[0.2rem] py-[0.1rem] text-[7pt] font-bold leading-none text-red-100 transform translate-x-1/2 -translate-y-1/2 bg-red-600 rounded-full"
+                >1</span
+              >
+            </span>
           </div>
         </div>
         <div class="flex flex-col items-center">
           <div>
-            <img class="w-9 h-9" src="/assets/chat.png" alt="beranda" />
+            <img
+              class="w-7 h-7"
+              src="/assets/mentahan/setting.png"
+              alt="setting"
+            />
           </div>
-          <div class="text-sm tracking-wide font-medium text-gray-600 -mt-1">
-            Chat
+        </div>
+        <div class="flex flex-col items-center">
+          <div class="notifnya mt-1">
+            <span class="relative inline-block">
+              <img
+                class="w-8 h-8 rounded-full object-cover"
+                src="/assets/mentahan/person1.jpg"
+                alt="notif"
+              />
+
+              <span
+                class="w-2 h-2 absolute -bottom-[0.2rem] right-[0.2rem] inline-flex items-center justify-center px-[0.2rem] py-[0.1rem] text-[7pt] font-bold leading-none text-red-100 transform translate-x-1/2 -translate-y-1/2 bg-green-500 rounded-full"
+              >
+              </span>
+            </span>
           </div>
         </div>
       </footer>
-    </div>
+    </div> -->
   </body>
 </html>
