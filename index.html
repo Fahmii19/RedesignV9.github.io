@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redesign v9</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <link rel="stylesheet" href="output.css" /> -->
+  </head>
+  <body class="bg-white overflow-hidden">
+    <!-- header -->
+    <div class="flex flex-col h-screen">
+      <header class="px-2 pt-2 pb-2.5 bg-[#00880c]">
+        <div class="flex flex-row">
+          <div
+            class="w-[80rem] h-[2.5rem] bg-slate-200 mr-4 flex justify-start items-center rounded-full"
+          >
+            <div class="flex flex-row">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-5 h-5 ml-3 mr-3"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+                />
+              </svg>
+              <div class="text-sm text-slate-700">
+                Ikut misi & menangin merch!
+              </div>
+            </div>
+          </div>
+          <div
+            class="w-[11rem] h-[2.5rem] bg-slate-200 rounded-full flex items-center justify-center"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="w-6 h-6 text-[#00880c]"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </header>
+      <!-- konten -->
+      <main class="p-4 flex-grow bg-slate-100">
+        <!-- konten1 -->
+        <div class="w-full h-24 flex flex-row bg-[#0081a0] rounded-2xl p-2">
+          <div
+            class="w-2 h-full flex flex-col items-stretch justify-around py-3 mr-2"
+          >
+            <div class="w-0.5 h-2 self-center bg-gray-400"></div>
+            <div class="w-0.5 h-2 self-center bg-gray-400"></div>
+            <div class="w-0.5 h-2 self-center bg-gray-300"></div>
+          </div>
+          <div class="w-40 h-full bg-slate-100 rounded-md py-1 px-2">
+            <div class="flex flex-row items-stretch">
+              <div class="self-center mr-0.5">
+                <img class="w-4 h-4" src="/assets/gopay.png" alt="" />
+              </div>
+              <div class="text-xs font-bold self-center -mt-1">gopay</div>
+            </div>
+            <div class="text-sm font-bold py-1">RP. 1.250.000</div>
+            <div class="text-sm font-bold text-[#018812]">
+              Klik & cek riwayat
+            </div>
+          </div>
+          <div class="w-14 h-full flex flex-col justify-center items-center">
+            <img class="w-8 h-8" src="/assets/bayar.png" alt="" />
+            <div class="text-white font-semibold text-xs mt-1">Bayar</div>
+          </div>
+          <div class="w-14 h-full flex flex-col justify-center items-center">
+            <img class="w-8 h-8" src="/assets/isisaldo.png" alt="" />
+            <div class="text-white font-semibold text-xs mt-1">Isi Saldo</div>
+          </div>
+          <div class="w-14 h-full flex flex-col justify-center items-center">
+            <img class="w-8 h-8" src="/assets/eksplor.png" alt="" />
+            <div class="text-white font-semibold text-xs mt-1">Eksplor</div>
+          </div>
+        </div>
+        <!-- konten2 -->
+        <div class="w-full h-36 mt-6 px-5">
+          <div class="flex justify-between h-20">
+            <div class="w-12 h-16 flex flex-col items-center justify-center">
+              <div class="w-[3rem] h-[2.8rem] bg-[#f0e8ff] rounded-lg">
+                <img
+                  class="w-12 h-12 mt-1 ml-[0.1rem]"
+                  src="/assets/goride.png"
+                  alt=""
+                />
+              </div>
+              <div class="text-xs font-normal mt-2">GoRide</div>
+            </div>
+            <div class="w-12 h-16 flex flex-col items-center justify-center">
+              <div class="w-[3rem] h-[2.8rem] bg-[#f0e8ff] rounded-lg">
+                <img
+                  class="w-12 h-12 mt-[0.6rem] ml-[0.2rem]"
+                  src="/assets/gocar.png"
+                  alt=""
+                />
+              </div>
+              <div class="text-xs font-normal mt-2">GoCar</div>
+            </div>
+            <div class="w-12 h-16 flex flex-col items-center justify-center">
+              <div class="w-[3rem] h-[2.8rem] bg-[#f0e8ff] rounded-lg">
+                <img
+                  class="w-12 h-12 mt-[0.6rem] ml-[0.5rem]"
+                  src="/assets/gofood.png"
+                  alt=""
+                />
+              </div>
+              <div class="text-xs font-normal mt-2">GoFood</div>
+            </div>
+            <div class="w-12 h-16 flex flex-col items-center justify-center">
+              <div class="w-[3rem] h-[2.8rem] bg-[#e1fad2] rounded-lg">
+                <img
+                  class="w-14 h-12 mt-[0.5rem] ml-[0.4rem]"
+                  src="/assets/gosend.png"
+                  alt=""
+                />
+              </div>
+              <div class="text-xs font-normal mt-2">GoSend</div>
+            </div>
+          </div>
+          <div class="flex justify-between h-20 mt-1">
+            <div class="w-12 h-16 flex flex-col items-center justify-center">
+              <div class="w-[3rem] h-[2.8rem] bg-[#ffe1df] rounded-lg">
+                <img
+                  class="w-14 h-[2.8] mt-[0.3rem] ml-[0.5rem]"
+                  src="/assets/gomart.png"
+                  alt=""
+                />
+              </div>
+              <div class="text-xs font-normal mt-2">GoMart</div>
+            </div>
+            <div class="w-12 h-16 flex flex-col items-center justify-center">
+              <div class="w-[3rem] h-[2.8rem] bg-[#f0e8ff] rounded-lg">
+                <img
+                  class="w-12 h-11 mt-1.5 ml-1"
+                  src="/assets/gopulsa.png"
+                  alt=""
+                />
+              </div>
+              <div class="text-xs font-normal mt-2">GoPulsa</div>
+            </div>
+            <div class="w-12 h-16 flex flex-col items-center justify-center">
+              <div class="w-[3rem] h-[2.8rem] bg-[#d3f4fb] rounded-lg">
+                <img
+                  class="w-12 h-11 mt-1 ml-1"
+                  src="/assets/gopaylater.png"
+                  alt=""
+                />
+              </div>
+              <div class="text-xs font-normal mt-2">GoPlaylater</div>
+            </div>
+            <div class="w-12 h-16 flex flex-col items-center justify-center">
+              <div class="w-10 h-10 bg-[#ededed] rounded-full">
+                <img class="w-9 h-19" src="/assets/semua.png" alt="" />
+              </div>
+              <div class="text-xs font-normal mt-2">GoRide</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- konten2 -->
+        <div
+          class="w-full h-14 mt-6 bg-gradient-to-r from-[#f8eee5] to-[#f8eee5] flex flex-row rounded-[0.7rem] shadow-lg"
+        >
+          <div class="w-16 flex justify-center items-center h-full">
+            <img class="w-10 h-10" src="/assets/icon_konten.png" alt="" />
+          </div>
+          <div class="w-72 flex flex-col py-3">
+            <div class="text-sm font-semibold tracking-wide">
+              200 XP lagi ada Harta Karun
+            </div>
+            <div>
+              <div class="w-56 mt-0.5">
+                <div class="w-full h-1 bg-gray-300">
+                  <div class="w-10 h-1 bg-green-600"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-12 flex items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="2.5"
+              stroke="currentColor"
+              class="w-6 h-6 text-gray-500"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M8.25 4.5l7.5 7.5-7.5 7.5"
+              />
+            </svg>
+          </div>
+        </div>
+
+        <!-- konten3 -->
+        <div class="flex -mr-5 flex-row overflow-y-hidden mt-5">
+          <div class="flex-shrink-0 mr-2">
+            <div
+              class="bg-white w-52 h-12 flex items-center p-1 px-2 rounded-lg shadow-xl"
+            >
+              <div class="text-sm font-semibold">5</div>
+              <div class="text-sm font-semibold px-2">Voucher akan hangus</div>
+              <div
+                class="w-7 h-7 bg-[#00aa13] flex items-center justify-center rounded-full"
+              >
+                <img class="w-7 h-7" src="/assets/kupon_promo.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="flex-shrink-0">
+            <div
+              class="bg-white w-52 h-12 flex items-center p-1 px-2 rounded-lg shadow-xl"
+            >
+              <div class="text-sm font-semibold"></div>
+              <div class="text-sm font-semibold px-2">Restoran Terdekat</div>
+              <div
+                class="w-7 h-7 bg-[#00aa13] flex items-center justify-center rounded-full"
+              >
+                <img class="w-7 h-7" src="/assets/kupon_promo.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- konten4 -->
+        <img src="" alt="" />
+      </main>
+      <!-- Footer -->
+      <footer
+        class="w-full h-[4rem] bg-white grid grid-cols-4 place-items-center px-1"
+      >
+        <div class="flex flex-col items-center">
+          <div>
+            <img class="w-7 h-7" src="/assets/home.png" alt="beranda" />
+          </div>
+          <div class="text-sm tracking-wide font-medium">Beranda</div>
+        </div>
+        <div class="flex flex-col items-center">
+          <div>
+            <img
+              class="w-9 h-9"
+              src="/assets/kupon_promo_home.png"
+              alt="beranda"
+            />
+          </div>
+          <div class="text-sm tracking-wide font-medium text-gray-600 -mt-1">
+            Promo
+          </div>
+        </div>
+        <div class="flex flex-col items-center mt-1">
+          <div>
+            <img class="w-8 h-8" src="/assets/pesanan.png" alt="beranda" />
+          </div>
+          <div class="text-sm tracking-wide font-medium text-gray-600 -mt-0.5">
+            Pesanan
+          </div>
+        </div>
+        <div class="flex flex-col items-center">
+          <div>
+            <img class="w-9 h-9" src="/assets/chat.png" alt="beranda" />
+          </div>
+          <div class="text-sm tracking-wide font-medium text-gray-600 -mt-1">
+            Chat
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
